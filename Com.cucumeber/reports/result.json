@@ -1,0 +1,146 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4160351500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should navigate to demowebShop application",
+            "match": {
+              "location": "LoginSteps.userShouldNavigateToDemowebShopApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d129.0.6668.103)\nBuild info: version: \u00274.12.1\u0027, revision: \u00278e34639b11\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002722.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9464dcdcd39506a6866329bc9e794c39, findElement {using\u003dxpath, value\u003d//a[@class\u003d\u0027ico-login\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.103, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\\Users\\admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56030}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56030/devtoo..., se:cdpVersion: 129.0.6668.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 9464dcdcd39506a6866329bc9e794c39\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)\r\n\tat Steps.LoginSteps.userShouldClickOnLoginLink(LoginSteps.java:74)\r\n\tat ✽.user should click on login link(src\\test\\java\\Feature\\Login.feature:5)\r\n",
+              "duration": 53894300,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user should click on login link",
+            "match": {
+              "location": "LoginSteps.userShouldClickOnLoginLink()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Login should be successfull",
+        "description": "",
+        "id": "demowebshop-application;login-should-be-successfull",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "user should Enter username as \"javaseleniumA4@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"javaseleniumA4@gmail.com\"",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginSteps.userShouldEnterUsernameAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user should enter the password as \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSteps.userShouldEnterThePasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginSteps.userClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user should click on Digital Downloads link",
+            "match": {
+              "location": "LoginSteps.userShouldClickOnDigitalDownloadsLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user add one product to cart",
+            "match": {
+              "location": "LoginSteps.userAddOneProductToCart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "product should added to cart",
+            "match": {
+              "location": "LoginSteps.productShouldAddedToCart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "DemoWebShop Application",
+    "description": "",
+    "id": "demowebshop-application",
+    "keyword": "Feature",
+    "uri": "src\\test\\java\\Feature\\Login.feature",
+    "tags": []
+  }
+]
